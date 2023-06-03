@@ -1,0 +1,48 @@
+{
+  "choices": [
+    {
+      "id": "72d4fe4e-1d04-484a-b7c5-79146d91dbfc",
+      "name": "capture-code",
+      "type": "Capture",
+      "command": true,
+      "appendLink": false,
+      "captureTo": "code-snip/{{DATE}}-{{value:language}}-{{value:title}}",
+      "captureToActiveFile": false,
+      "createFileIfItDoesntExist": {
+        "enabled": true,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "---\nauthor: erpang\ndate: <% tp.file.creation_date() %>\n---\n#code-snip #{{value:language}}-snip #{{value:title}}\n\n```{{value:language}}\n{{mvalue}}\n```"
+      },
+      "insertAfter": {
+        "enabled": false,
+        "after": "",
+        "insertAtEnd": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": false,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
+    }
+  ],
+  "macros": [],
+  "inputPrompt": "single-line",
+  "devMode": false,
+  "templateFolderPath": "",
+  "migrations": {
+    "migrateToMacroIDFromEmbeddedMacro": true,
+    "useQuickAddTemplateFolder": true,
+    "incrementFileNameSettingMoveToDefaultBehavior": true,
+    "mutualExclusionInsertAfterAndWriteToBottomOfFile": true
+  }
+}

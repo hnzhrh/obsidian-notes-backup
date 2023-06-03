@@ -1,0 +1,14 @@
+{
+  "uploadByClipSwitch": true,
+  "uploader": "PicGo",
+  "uploadServer": "http://127.0.0.1:38899/upload",
+  "deleteServer": "http://127.0.0.1:36677/delete",
+  "imageSizeSuffix": "",
+  "picgoCorePath": "/usr/bin/node ~/Downloads/PicGo-2.3.1.AppImage upload",
+  "workOnNetWork": false,
+  "fixPath": false,
+  "applyImage": false,
+  "newWorkBlackDomains": "",
+  "deleteSource": false,
+  "uploadedImages": []
+}
